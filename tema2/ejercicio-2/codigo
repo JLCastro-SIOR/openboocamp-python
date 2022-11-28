@@ -1,0 +1,4 @@
+variable = "Hola mundo"
+print(variable)
+variable = "Nuevo Hola mundo"
+print(variable)
