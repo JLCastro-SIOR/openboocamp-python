@@ -1,0 +1,12 @@
+# Pedimos al usuario que ingrese su peso y estatura
+peso = float(input("Ingresa tu peso en kg: "))
+estatura = float(input("Ingresa tu estatura en metros: "))
+
+# Calculamos el índice de masa corporal
+imc = peso / (estatura ** 2)
+
+# Redondeamos el índice de masa corporal con dos decimales y lo almacenamos en una variable
+imc_redondeado = round(imc, 2)
+
+# Imprimimos el índice de masa corporal por pantalla
+print("Tu índice de masa corporal es", imc_redondeado)
