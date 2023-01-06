@@ -1,0 +1,23 @@
+class Alumno:
+    def __init__(self, nombre, nota):
+        self.nombre = nombre
+        self.nota = nota
+
+    def imprimir_atributos(self):
+        print("Nombre:", self.nombre)
+        print("Nota:", self.nota)
+
+    def mostrar_resultado(self):
+        if self.nota >= 5:
+            print(self.nombre, "Aprobó con: ", self.nota)
+        else:
+            print(self.nombre, "Reprobó con: ", self.nota)
+
+# Crear una instancia de la clase
+alumno = Alumno("Luis", 4)
+
+# Imprimir los atributos de la instancia
+alumno.imprimir_atributos()
+
+# Mostrar el resultado de la nota del alumno
+alumno.mostrar_resultado()
