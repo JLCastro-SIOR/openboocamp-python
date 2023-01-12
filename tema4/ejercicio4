@@ -1,0 +1,11 @@
+#Creamos una lista vacia donde guardaremos la salida
+resultado = []
+
+#definimos una variable y la iniciamos en 100 e iniciamos un ciclo while
+actual = 100
+while actual > 0:
+  resultado.append(actual)
+  actual -= 1
+
+#mostramos la lista con los numeros de resultado
+print(resultado)

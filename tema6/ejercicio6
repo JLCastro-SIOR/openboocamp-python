@@ -1,0 +1,19 @@
+#Definimos la clase vehiculo
+class Vehiculo:
+  color = "azul"
+  ruedas = 4
+  puertas = 4
+
+#Definimos la clase coche
+class Coche(Vehiculo):
+  velocidad = 120
+  Cilindrada = 8
+
+#Instanciamos la clase
+c = Coche()
+
+#Probamos cambiar el valor de un atributo
+c.Cilindrada = 5
+
+#Mostramos los atributos por consola
+print("Color: ",c.color, "Puertas: ",c.puertas,"Cilindrada: ",c.Cilindrada)

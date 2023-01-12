@@ -1,0 +1,15 @@
+def añoBisiesto(year):
+  if (year % 4 == 0):
+    if (year % 100 == 0):
+      if (year % 400 == 0):
+        return "Es bisiesto"
+      else:
+        return "No es bisiesto"
+    else:
+      return "Es bisiesto"
+  else:
+    return "No es bisiesto"
+
+print(añoBisiesto(1900))
+print(añoBisiesto(2000))
+print(añoBisiesto(2023))
